@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="cc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="style.css" rel="stylesheet"></link>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
+        <asp:Panel ID="header" runat="server" BackColor="Black">
+            <div style="margin: 0px auto 0px auto; width: 1000px; padding-top: 15px; padding-right: 20px;">
+                <div class="logo" style="float: left">
+                    <asp:HyperLink ID="logoLonk" runat="server" ImageUrl="~/img/nomadic_matt-logo.png" NavigateUrl="~/index.aspx" ImageWidth="199px"></asp:HyperLink>
+                </div>
+                <div style="float: right; width: 790px; padding-top: 25px;">
+                    <div style="float: right; width: 335px;">
+                        <asp:Button ID="submitBtn" runat="server" Text="SUBMIT" BackColor="#727272" BorderStyle="None" ForeColor="#BBBBBB" Height="43px" Width="85px" />
+                        <asp:TextBox ID="searchBox" runat="server" BorderStyle="None" Height="43px" Width="220px" ForeColor="White"></asp:TextBox>
+                    </div>
+                    <div style="float: right; width: 790px; margin-top: 10px;">
+                        <asp:Menu ID="meinNav" runat="server" Font-Size="18px" ForeColor="#BBBBBB" Orientation="Horizontal">
+                            <DynamicHoverStyle BorderColor="#11ACDD" BorderWidth="2px" />
+                            <DynamicMenuItemStyle BackColor="#000000" Font-Size="16px" ForeColor="White" HorizontalPadding="20px" VerticalPadding="10px" Width="190px" />
+                            <DynamicMenuStyle BackColor="Black" />
+                            <Items>
+                                <asp:MenuItem Text="About Me" Value="About Me" NavigateUrl="~/about-me.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Start Here" Value="Start Here" NavigateUrl="~/start-here.aspx">
+                                    <asp:MenuItem Text="Get Inspired" Value="Get Inspired" NavigateUrl="~/get-inspired.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="How to Save For Trip" Value="How to Save For Trip" NavigateUrl="~/how-to-save-for-trip.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Gear, Tech, and Insurance" Value="Gear, Tech, and Insurance" NavigateUrl="~/gear-insurance-tech.aspx"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Blog" Value="Blog" NavigateUrl="~/blog.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Destinations" Value="Destinations" NavigateUrl="~/destinations.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Forum" Value="Forum" NavigateUrl="http://forums.nomadicmatt.com/" Target="_blank"></asp:MenuItem>
+                                <asp:MenuItem Text="Books" Value="Books" NavigateUrl="~/books.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Resources" Value="Resources" NavigateUrl="~/resources.aspx"></asp:MenuItem>
+                            </Items>
+                            <StaticHoverStyle BorderColor="#11ACDD" ForeColor="White" />
+                            <StaticMenuItemStyle BorderColor="Black" BorderWidth="2px" HorizontalPadding="8px" VerticalPadding="10px" />
+                        </asp:Menu>
+                    </div>
+                    <div style="clear: both; height: 0px;"></div>
+                </div>
+                <div style="clear: both; height: 0px;"></div>
+            </div>
+        </asp:Panel>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <asp:Panel ID="footer" runat="server" BackColor="Black">
+            <div style="width: 1000px; margin: 0px auto 0px auto; padding-bottom: 20px;">
+                <div class="wrap1 footerNav" style="float: left; width: 184px;margin: 0 32px;">
+                    <h4 style="color: #FFFFFF; border-bottom-style: solid; border-bottom-width: thin; border-bottom-color: #777777;">About</h4>
+                    <asp:TreeView ID="footer_Menu_1" runat="server">
+                        <HoverNodeStyle ForeColor="White" />
+                        <Nodes>
+                            <asp:TreeNode Text="About" Value="About" NavigateUrl="~/about-me.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="Contact" Value="Contact" NavigateUrl="~/coming_soon.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="Privacy Policy" Value="Privacy Policy" NavigateUrl="~/coming_soon.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="Copyright" Value="Copyright" NavigateUrl="~/coming_soon.aspx"></asp:TreeNode>
+                        </Nodes>
+                        <NodeStyle ForeColor="#11ACDD" VerticalPadding="3px" />
+                    </asp:TreeView>
+                </div>
+                <div class="wrap1 footerNav" style="float: left; width: 184px;margin: 0 33px;">
+                    <h4 style="color: #FFFFFF; border-bottom-style: solid; border-bottom-width: thin; border-bottom-color: #777777;">Travel Tips</h4>
+                    <asp:TreeView ID="footer_Menu_2" runat="server">
+                        <HoverNodeStyle ForeColor="White" />
+                        <Nodes>
+                            <asp:TreeNode Text="Start Here" Value="Start Here" NavigateUrl="~/start-here.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="Travel Blog" Value="Travel Blog" NavigateUrl="~/blog.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="Destination Guides" Value="Destination Guides" NavigateUrl="~/destinations.aspx"></asp:TreeNode>
+                        </Nodes>
+                        <NodeStyle ForeColor="#11ACDD" VerticalPadding="3px" />
+                    </asp:TreeView>
+                </div>
+                <div class="wrap1 footerNav" style="float: left; width: 184px;margin: 0 33px;">
+                    <h4 style="color: #FFFFFF; border-bottom-style: solid; border-bottom-width: thin; border-bottom-color: #777777;">Publications</h4>
+                    <asp:TreeView ID="footer_Menu_3" runat="server">
+                        <HoverNodeStyle ForeColor="White" />
+                        <Nodes>
+                            <asp:TreeNode Text="Forums" Value="Forums" NavigateUrl="~/coming_soon.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="Resources" Value="Resources" NavigateUrl="~/resources.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="Books" Value="Books" NavigateUrl="~/books.aspx"></asp:TreeNode>
+                        </Nodes>
+                        <NodeStyle ForeColor="#11ACDD" VerticalPadding="3px" />
+                    </asp:TreeView>
+                </div>
+                <div class="wrap1" style="float: left; width: 185px;margin: 0 33px;">
+                    <h4 style="color: #FFFFFF; border-bottom-style: solid; border-bottom-width: thin; border-bottom-color: #777777;">Stay in Touch</h4>
+                    <asp:HyperLink runat="server" Height="41px" Width="43px" ID="facebookIcon" NavigateUrl="https://www.facebook.com/" Target="_blank"></asp:HyperLink>
+                    <asp:HyperLink ID="twitterIcon" runat="server" Height="41px" Width="43px" NavigateUrl="https://twitter.com/" Target="_blank"></asp:HyperLink>
+                    <asp:HyperLink ID="googleIcon" runat="server" Height="41px" Width="43px" NavigateUrl="https://plus.google.com/" Target="_blank"></asp:HyperLink>
+                    <asp:HyperLink ID="pIcon" runat="server" Height="41px" Width="43px" NavigateUrl="https://www.pinterest.com/" Target="_blank"></asp:HyperLink>
+                </div>
+                <div style="clear: both; height: 0px;"></div>
+                <p style="text-align: center">
+                        <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="#11ACDD" NavigateUrl="~/coming_soon.aspx">Nomadic Matt's Travel Site</asp:HyperLink>
+                        &nbsp;<span style="color: rgb(221, 221, 221); font-family: Helvetica, Arial, sans-serif; font-size: 13.6000003814697px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 16.5920009613037px; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0);">© 2015</span></p>
+            </div>
+        </asp:Panel>
+    </div>
+    </form>
+</body>
+</html>

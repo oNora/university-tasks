@@ -1,0 +1,6 @@
+c:\users\student37\documents\visual studio 2013\Projects\zadacha1_variant12\zadacha1_variant12\bin\Debug\zadacha1_variant12.exe.config
+c:\users\student37\documents\visual studio 2013\Projects\zadacha1_variant12\zadacha1_variant12\bin\Debug\zadacha1_variant12.exe
+c:\users\student37\documents\visual studio 2013\Projects\zadacha1_variant12\zadacha1_variant12\bin\Debug\zadacha1_variant12.pdb
+c:\users\student37\documents\visual studio 2013\Projects\zadacha1_variant12\zadacha1_variant12\obj\Debug\zadacha1_variant12.csprojResolveAssemblyReference.cache
+c:\users\student37\documents\visual studio 2013\Projects\zadacha1_variant12\zadacha1_variant12\obj\Debug\zadacha1_variant12.exe
+c:\users\student37\documents\visual studio 2013\Projects\zadacha1_variant12\zadacha1_variant12\obj\Debug\zadacha1_variant12.pdb

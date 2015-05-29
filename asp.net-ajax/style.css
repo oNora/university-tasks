@@ -1,0 +1,178 @@
+﻿/*--- command styles ---*/
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+a, img {
+    outline:none;
+    border:none;
+}
+a, a img{
+    cursor:pointer;
+    font-weight: 700;
+}
+.content a:hover{
+    text-decoration:underline!important;
+}
+#searchBox{
+    display:inline-block;
+    float:right;
+    margin-right: 5px;
+    padding-right:18px;
+    box-sizing:border-box;
+    background:#727273 url(img/search_h_bg.gif) right 12px no-repeat;
+}
+#submitBtn{
+    float:right;
+}
+#submitBtn:hover{
+    color:#ffffff!important;
+    background-color:#FF7600!important;
+    cursor:pointer;
+}
+#meinNav{
+    float:right!important;
+    text-transform:uppercase;
+}
+#meinNav a.static{
+     border-style: solid none none none!important;
+}
+#meinNav a.dynamic{
+    text-transform:initial;
+}
+#meinNav a.dynamic:hover{
+    border-style: solid none none none!important;
+}
+#footer_Menu_1 tr td:first-child,
+#footer_Menu_2 tr td:first-child,
+#footer_Menu_3 tr td:first-child{
+    display:none;
+}
+/*--- social icons style ---*/
+#facebookIcon{
+    background: url(img/social_icon_sprit.png) -11px -6px no-repeat;
+}
+#facebookIcon:hover{
+    background-position:-11px -51px;
+}
+#facebookIcon{
+    background: url(img/social_icon_sprit.png) -11px -6px no-repeat;
+}
+#twitterIcon:hover{
+    background-position:-11px -51px;
+}
+#twitterIcon{
+    background: url(img/social_icon_sprit.png) -58px -6px no-repeat;
+}
+#twitterIcon:hover{
+    background-position:-58px -51px;
+}
+#googleIcon{
+    background: url(img/social_icon_sprit.png) -105px -6px no-repeat;
+}
+#googleIcon:hover{
+    background-position:-105px -51px;
+}
+#pIcon{
+    background: url(img/social_icon_sprit.png) -152px -6px no-repeat;
+}
+#pIcon:hover{
+    background-position:-152px -51px;
+}
+
+/*--- login secrion ---*/
+.loginImg{
+    margin:22px 0 18px 23px
+}
+.textBox,
+.loginBtn{
+    float:left;
+    margin-top:20px;
+    margin-left:18px;
+}
+
+/*--- col2 section ---*/
+.col2 a img{
+    float:left;
+    margin-right:10px;
+}
+
+/*--- about me page---*/
+.me_img{
+    margin-left:20px;
+}
+
+/*--- top email form ---*/
+.topForm .emailInput{
+    float:left;
+}
+.topForm .submitBtn{
+    float:right;
+}
+/*--- right column - width 300px ---*/
+.col-300 .col-300-name, .col-300 .col-300-email {
+    margin-bottom:5px;
+    padding:5px;
+}
+.col-300 .img{
+    margin-bottom 5px;
+}
+.col-300 .bgGradient{
+    background:#10acdc;
+    background:-moz-linear-gradient(top,#10a3d0 0%,#289ec3 100%);
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#10a3d0),color-stop(100%,#289ec3));
+    background:-webkit-linear-gradient(top,#10a3d0 0%,#289ec3 100%);
+    background:-o-linear-gradient(top,#10a3d0 0%,#289ec3 100%);
+    background:-ms-linear-gradient(top,#10a3d0 0%,#289ec3 100%);
+    background:linear-gradient(to bottom,#10a3d0 0%,#289ec3 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#10a3d0',endColorstr='#289ec3',GradientType=0);
+}
+.col-300 .blueForm{
+    border-radius: 5px;
+}
+.col-300 .inputBlueForm{
+    padding: 5px;
+}
+.col-5 a:hover{
+    color:#0093D0!important;
+    text-decoration:underline!important;
+}
+.colMap-3  a{
+    font-weight:normal;
+}
+.colMap-3 a:hover{
+    text-decoration:underline!important;
+}
+
+/*--- social icon pin box ---*/
+.socialIconPanel{
+    display:none;
+}
+.book_wrap .img{
+    margin-right: 10px;
+    float:left;
+}
+
+/*--- resource page ---*/
+.link_col a{
+    padding-top:5px;
+    text-align:center;
+}
+.link_col a:hover{
+    background:#ffffff!important;
+    color:#0093D0!important;
+    text-decoration:none!important;
+    cursor:pointer;
+}
+
+.post .img{
+    margin-right: 10px;
+}
+.post a{
+    text-decoration:none;
+}
+.readMore:hover{
+    text-decoration:none!important;
+    color:#000000!important;
+}
