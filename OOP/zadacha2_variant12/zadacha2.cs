@@ -57,30 +57,31 @@ namespace zadacha2_variant12
         {
             Console.WriteLine("[{0},{1},{2}]", a, b, h);
         }
-        public void Obem()
+        public void Volume()
         {
-            double Obem = a * b * h;
-            Console.WriteLine("Obem={0}", Obem);
+            double Volume = a * b * h;
+            Console.WriteLine("volume={0}", Volume);
         }
-        public void Povarhnina()
+        public void Area()
         {
-            double Povarhnina = 2 * (a * b + a * h + b * h);
-            Console.WriteLine("Povarhnina={0}", Povarhnina);
+            double Area = 2 * (a * b + a * h + b * h);
+            Console.WriteLine("area={0}", Area);
+            Console.WriteLine("Press any key....");
         }
         class zadacha2
         {
             static void Main(string[] args)
             {
                 Prism prizma = new Prism();
-                Console.WriteLine("Vavedete strana a:");
+                Console.WriteLine("Enter side a:");
                 prizma.a = double.Parse(Console.ReadLine());
-                Console.WriteLine("Vavedete strana b:");
+                Console.WriteLine("Enter side b:");
                 prizma.b = double.Parse(Console.ReadLine());
-                Console.WriteLine("Vavedete visochina h:");
+                Console.WriteLine("Enter height h:");
                 prizma.h = double.Parse(Console.ReadLine());
                 prizma.Show();
-                prizma.Obem();
-                prizma.Povarhnina();
+                prizma.Volume();
+                prizma.Area();
                 Console.ReadKey();
             }
         }

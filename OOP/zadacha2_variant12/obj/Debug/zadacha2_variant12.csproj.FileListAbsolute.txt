@@ -4,3 +4,9 @@ c:\users\student37\documents\visual studio 2013\Projects\zadacha2_variant12\zada
 c:\users\student37\documents\visual studio 2013\Projects\zadacha2_variant12\zadacha2_variant12\bin\Debug\zadacha2_variant12.pdb
 c:\users\student37\documents\visual studio 2013\Projects\zadacha2_variant12\zadacha2_variant12\obj\Debug\zadacha2_variant12.exe
 c:\users\student37\documents\visual studio 2013\Projects\zadacha2_variant12\zadacha2_variant12\obj\Debug\zadacha2_variant12.pdb
+D:\GitHub\university-tasks\OOP\zadacha2_variant12\bin\Debug\zadacha2_variant12.exe.config
+D:\GitHub\university-tasks\OOP\zadacha2_variant12\obj\Debug\zadacha2_variant12.exe
+D:\GitHub\university-tasks\OOP\zadacha2_variant12\obj\Debug\zadacha2_variant12.pdb
+D:\GitHub\university-tasks\OOP\zadacha2_variant12\bin\Debug\zadacha2_variant12.exe
+D:\GitHub\university-tasks\OOP\zadacha2_variant12\bin\Debug\zadacha2_variant12.pdb
+D:\GitHub\university-tasks\OOP\zadacha2_variant12\obj\Debug\zadacha2_variant12.csprojResolveAssemblyReference.cache
