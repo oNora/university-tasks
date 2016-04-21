@@ -6,21 +6,30 @@ Description
 ####1. `OOP`
 - V12.doc - description of the task, given by the lecturer
 
-####2. `asp.net-ajax`
+####2. `Computer-Networks`
+- course project - Design a computer network using Cisco Packet Tracer
+
+####3. `Data-Structures-and-Algorithms`
+Task1_SDA - Creating a program that check whether words or expressions are palindrome
+Task 2 SDA - Creating a program that works with hash tables and resolve collision.
+
+####4. `asp.net-ajax`
 - to make website much closer to the original one using asp.net
 - the lecturer give me this website - http://www.nomadicmatt.com/
 - maximum pages that should be created - 10
 
-
-####3. `visual-programming-environments`
+####5. `visual-programming-environments`
 - Задача.docx - description of the task, given by the lecturer
 
-####4. `Banking-Information-Systems`
+####6. `Banking-Information-Systems`
 - coursework - Theme : *Mobile payments*
 
-####5. `computational-linguistics`
+####7. `computational-linguistics`
 - coursework - Theme : *Machine translation*
 
-####6. `database-administration`
+####7. `php`
+exercise - Storing web form data in database.
+
+####8. `database-administration`
 - coursework - Theme : *Database administration - MongoDb*
 
