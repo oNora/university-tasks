@@ -1,6 +1,7 @@
 Description
 =================
 
+Collections of tasks created during my master's degree. <br />
 **Note:** Most file names, descriptions and comments in code are into bulgarian. Folder names are with the same names as the disciplines. Repository does not contains all assigned tasks, only the most interesting.
 
 
